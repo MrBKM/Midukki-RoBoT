@@ -207,7 +207,7 @@ async def save_template(client: Midukki_RoboT, message: message()):
         return await sts.edit("None")
 
     pr0fess0r_99 = message.text.split(" ", 1)[1]
-    await save_group_settings(grp_id, 'template', pr0fess0r_99)
+    await (grp_id, 'template', pr0fess0r_99)
     await sts.edit(f"""Successfully Changed Temp (Autofilter) for {title} to \n\n{pr0fess0r_99}""")
 
 
@@ -702,7 +702,7 @@ async def auto_filters(client: Midukki_RoboT, message: message()):
         if files:
             for file in files:
                 file_id = file.file_id
-                filesize = f"[{get_size(file.file_size)}]"
+                filesize = f"{get_size(file.file_size)}"
                 filename = f"{file.file_name}"
                 
                 if settings["buttons"]:
