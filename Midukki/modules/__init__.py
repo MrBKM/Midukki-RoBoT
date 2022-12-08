@@ -253,38 +253,26 @@ async def callback_ui(client, query):
                 reply_markup=btn
             )
         else:
-            await query.answer("Hey Bro or Sis 🙏 Your Not A Authorized User", show_alert=True)
+            await query.answer("Hello 👋 Bro You Are Not A Admin", show_alert=True)
 
 class vars(object):
     start_buttons = [
         [
             button()
                 (
-                    "➕️ Add Me To Your Group ➕️",
-                        url=f"https://t.me/{Bots.BOT_USERNAME}?startgroup=new"
+                    "🔗 Movie Time",
+                        url=f"https://t.me/Tk_movies_adda"
                 )
         ],
         [
             button()
                 (
-                    "Support",
-                        url="https://t.me/+sv5flNs7yew1OTk1"
-                ),
-            button()
-                (
-                    "Updates",
-                        url="https://t.me/Mo_Tech_YT"
-                )
-        ],
-        [
-            button()
-                (
-                    "Help",
+                    "ℹ️ Help",
                         callback_data="maincb+help_cb"
                 ),
             button()
                 (
-                    "About",
+                    "😎 About",
                        callback_data="maincb+about_cb"
                 )
         ]
@@ -292,50 +280,50 @@ class vars(object):
     help_buttons = [
         [
             button()(
-                "📤AutoFilter", callback_data="maincb+auto_cb"
+                "AutoFilter", callback_data="maincb+auto_cb"
             ),
             button()(
-                "🎛️ManualFilter", callback_data="maincb+manual_cb"
+                "ManualFilter", callback_data="maincb+manual_cb"
             )
         ],
         [
             button()(
-                "🤬Ban", callback_data="maincb+ban_cb"
+                "🚫 Ban", callback_data="maincb+ban_cb"
             ),
             button()(
-                "🤐Mute", callback_data="maincb+mute_cb"
+                "🤐 Mute", callback_data="maincb+mute_cb"
             ),
             button()(
-                "ℹ️IDs", callback_data="maincb+info_cb"
+                "🆔 IDs", callback_data="maincb+info_cb"
             )
         ],
         [     
             button()(
-                "📌Pin", callback_data="maincb+pin_cb"
+                "📌 Pin Message", callback_data="maincb+pin_cb"
             ),
             button()(
-                "🗣️Spell", callback_data="maincb+spell_cb"
+                "🗣️ Spell Check", callback_data="maincb+spell_cb"
             ),
             button()(
-                "📝Caption", callback_data="maincb+caption_cb"
+                "📝 Caption Text", callback_data="maincb+caption_cb"
             )
         ],
         [
             button()(
-                "🔗Connection", callback_data="maincb+connection_cb"
+                "🖥️ Connection", callback_data="maincb+connection_cb"
             ),
             button()(
-                "📡Status", callback_data="maincb+stats_cb"
+                "📡 Status", callback_data="maincb+stats_cb"
             )
         ],
         [
             button()(
-               "🔐Admin Panel🔐", callback_data="maincb+admin_panel_cb"
+               "Admin Panel", callback_data="maincb+admin_panel_cb"
             )
         ],
         [
             button()(
-                "🚫 Close", callback_data="close_data"
+                "❎ Close ❎", callback_data="close_data"
             ),
             button()(
                 "<= Back", callback_data="maincb+start_cb"
@@ -346,32 +334,15 @@ class vars(object):
         [
             button()
                 (
-                    "Support",
-                        url="https://t.me/Mo_Tech_YT"
-                ),
-            button()
-                (
-                    "Source",
-                        url="https://t.me/+sv5flNs7yew1OTk1"
-                )
-        ],
-        [
-            button()
-                (
-                    "Tutorial",
-                        url="https://youtu.be/63K9xkKMBoo"
-                ),
-            button()
-                (
-                    "Insta",
-                        url="https://www.instagram.com/mrk_yt_"
-                )
-        ],
-        [
-            button()
-                (
-                    "⬅️ Back To Home ➡️",
+                    "Back <=",
                         callback_data="maincb+start_cb"
+                )
+        ],
+        [
+            button()
+                (
+                    "Close 🗑️",
+                        callback_data="close_data"
                 )
         ]
     ]
@@ -380,12 +351,12 @@ class vars(object):
         [
             button()
                 (
-                    "close 🗑️",
+                    "Close 🗑️",
                         callback_data="close_data"
                 ),
             button()
                 (
-                    "back <=",
+                    "Back <=",
                         callback_data="maincb+help_cb"
                 )
         ]
@@ -395,12 +366,12 @@ class vars(object):
         [
             button()
                 (
-                    "close 🗑️",
+                    "Close 🗑️",
                         callback_data="close_data"
                 ),
             button()
                 (
-                    "back <=",
+                    "Back <=",
                         callback_data="maincb+start_cb"
                 )
         ]
@@ -410,12 +381,12 @@ class vars(object):
         [
             button()
                 (
-                    "close 🗑️",
+                    "Close 🗑️",
                         callback_data="close_data"
                 ),
             button()
                 (
-                    "back <=",
+                    "Back <=",
                         callback_data="maincb+about_cb"
                 )
         ]
