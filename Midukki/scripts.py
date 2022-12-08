@@ -1,44 +1,34 @@
-START_TXT = """
-Hello 👋 {mention} 
+START_TXT = """<i><b>Hello 👋 {mention},</i></b>
 
-I'm <b>{bot}</b> ✨ an advanced telegram Group management
+<i><b>I Am Not Only {bot} To Assist You But Also Employed At <a href="https://t.me/Tk_movies_adda">Movie Time</a> Group By <a href="https://t.me/BIKASH_9999">Bikash</a> So You Can't Get My Service By Adding Me To Your Group So Don't Waste Your Time & Data  😉</i></b>
 
-I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential..!
+<i><b>Better You Click Below & Join <a href="https://t.me/Tk_movies_adda">Movie Time</a> & Feel The Experience Of Downloading Unlimited Movies/Series ✅</i></b>
 
-Join <b><a href=http://t.me/Mo_Tech_YT>my news channel</a></b> to get information on all the latest updates
-"""
+<i><b>For More Information Click ℹ️ Help</i></b>"""
 
-HELP_TXT = """
-👋 <b>Hello {mention}!</b>
 
-I Can Guide You Through All Of <b>{bot}</b>'s Cool Features And How To Properly Use Them. Use The Buttons Below To Navigate Through All Of The Modules          
+HELP_TXT = """<i><b>Hello 👋 {mention},</i></b>
 
-📚 <u><b>HelpFull Commands</b></u>:
+<i><b>I can Guide You Through All Of {bot}'s Cool Features & How To Properly Use Them. Use The Buttons Below To Navigate Through All Of The Modules.</i></b>
 
-- /start : Starts me! You've probably already used this!.
-- /help : Sends this message; I'll tell you more about models!
-- /about : Sends this message; I'll tell you more about myself!
-- /donate : Gives you info on how to support me and my creator!
+ABOUT_TXT = """<b>
+[{name}] Was created on December 8, 2022
 
-<b>All commands can be used with the following: [ / ]</b>
-"""
-
-ABOUT_TXT = """
-[{name}](t.me/{username}) Was created on September 4, 2022
-We are currently developing this bot, using only the Pyrogram library.
-
-➾ Developers : Muhammed
+➾ Developers : Mr.BKM
 ➾ Language : Python3
 ➾ Framework : Pyrogram
-➾ Database : Mongo db
-"""
+➾ Database : MongoDB
+</b>"""
 
-DONATE_TXT = """
-If you like this project of mine, you can donate by clicking on the given link
+DONATE_TXT = """<i><b>Hello 👋 {mention}</i></b>
 
-Dev : [Muhammed](t.me/Pr0fess0r_99)
-Paytm : [Click Here](https://p.paytm.me/xCTH/7yzmtgie)
-  or UPI `motech8129@okaxis`
+<i><b>Thank You For Showing Interest In My Works 🙏
+
+To Support My Works, Please Feel Free To Donate Any Amount You Like 💸</i></b>
+
+<b>UPI 🆔
+
+Google Pay 📲</b> `joynathnet4@oksbi`
 """
 
 STATUS_TXT = """
@@ -214,19 +204,26 @@ ADMIN_PANEL = """
 
 FILE_CAPTION_TXT = """{file_name}"""
 
-SPELLCHECK_TXT = """Hey Mr 
-Check Your Spelling 
-"""
+SPELLCHECK_TXT = """<b>Hello</b> 👋 {mention}
+
+<b>I Couldn't 🔍 Find</b> {query} <b>You Asked For 🤷</b>
+
+<b>Search In GOOGLE And Find The Correct Movie/Series Name And Enter It Here ⤵️</b>
+
+<b>If You Do Not Receive The Movie/Series Even After Entering The Correct Name Then Your Requested Movie/Series Does Not Exit In My Database 🗄</b>"""
 
 IMDB_TEMPLATE_TXT = """
 🙋‍♂️ Hey {mention} Your Requested {query} is ready 👍
 """
 
-WELCOME_TXT = """
-Hai {mention}
+WELCOME_TXT = """⁣👋 Hello {mention},
+ 
+Wᴇʟᴄᴏᴍᴇ ᴛᴏ {chat} 💐
 
-Welcome To {chat} ❣️
-"""
+Gʟᴀᴅ ʏᴏᴜ ғᴏᴜɴᴅ ᴜs !! 
+Pʟᴇᴀsᴇ ᴛᴀᴋᴇ ᴀ ᴍᴏᴍᴇɴᴛ ᴛᴏ ʀᴇᴀᴅ 
+ᴛʜᴇ Gʀᴏᴜᴘ Rᴜʟᴇs. Iᴛ's sʜᴏʀᴛ I ᴘʀᴏᴍɪsᴇ.
+Yᴏᴜʀ ᴘᴏsᴛɪɴɢ ʜᴇʀᴇ ɪs ᴀᴄᴄᴇᴘᴛɪɴɢ ᴛʜᴀᴛ ʏᴏᴜ'ᴠᴇ ʀᴇᴀᴅ ᴛʜᴇᴍ ᴀɴᴅ ᴡɪʟʟ ᴀʙɪᴅᴇ ʙʏ ᴛʜᴇᴍ. Jᴜᴍᴘ ɪɴ !!"""
 
 SEND_LOGS_A = """
 #BOT_STARTED"""
