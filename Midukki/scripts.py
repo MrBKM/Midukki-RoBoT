@@ -11,14 +11,13 @@ HELP_TXT = """<i><b>Hello 👋 {mention},</i></b>
 
 <i><b>I can Guide You Through All Of {bot}'s Cool Features & How To Properly Use Them. Use The Buttons Below To Navigate Through All Of The Modules.</i></b>
 
-ABOUT_TXT = """<b>
-[{name}] Was created on December 8, 2022
+ABOUT_TXT = """
+<b>[{name}] Was created on December 8, 2022</b>
 
 ➾ Developers : Mr.BKM
 ➾ Language : Python3
 ➾ Framework : Pyrogram
-➾ Database : MongoDB
-</b>"""
+➾ Database : MongoDB"""
 
 DONATE_TXT = """<i><b>Hello 👋 {mention}</i></b>
 
@@ -28,8 +27,7 @@ To Support My Works, Please Feel Free To Donate Any Amount You Like 💸</i></b>
 
 <b>UPI 🆔
 
-Google Pay 📲</b> `joynathnet4@oksbi`
-"""
+Google Pay 📲</b> `joynathnet4@oksbi`"""
 
 STATUS_TXT = """
 **--{bot}'s STATUS--**
