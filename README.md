@@ -1,7 +1,3 @@
-<p align="center">
-<img style="width:100px; height:100px;" src="Assets/Midukki-RoBoT.png" alt="Midukki RoBoT Logo">
-</p>
-
 <h1 align="center">
 <a href="https://telegram.dog/Midukki_Robot">Midukki-RoBoT</a>
 </h1>
