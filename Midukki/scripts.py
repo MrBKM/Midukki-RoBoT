@@ -11,14 +11,13 @@ HELP_TXT = """<i><b>Hello 👋 {mention},</i></b>
 
 <i><b>I can Guide You Through All Of {bot}'s Cool Features & How To Properly Use Them. Use The Buttons Below To Navigate Through All Of The Modules.</i></b>
 
-ABOUT_TXT = """
-<b>[{name}] Was created on December 8, 2022</b>
+ABOUT_TXT = """<b>{name} Was created on December 8, 2022
 
 ➾ Developers : Mr.BKM
 ➾ Language : Python3
 ➾ Framework : Pyrogram
 ➾ Database : MongoDB
-"""
+</b>"""
 
 DONATE_TXT = """<i><b>Hello 👋 {mention}</i></b>
 
