@@ -11,9 +11,8 @@ HELP_TXT = """<i><b>Hello 👋 {mention},</i></b>
 
 <i><b>I can Guide You Through All Of {bot}'s Cool Features & How To Properly Use Them. Use The Buttons Below To Navigate Through All Of The Modules.</i></b>
 
-ABOUT_TXT = """"""
 
-DONATE_TXT = """<i><b>Hello 👋 {mention}</i></b>
+DONATE_TXT = """<i><b>Hello 👋 {mention},</i></b>
 
 <i><b>Thank You For Showing Interest In My Works 🙏
 
