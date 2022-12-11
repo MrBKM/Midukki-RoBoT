@@ -22,7 +22,7 @@ To Support My Works, Please Feel Free To Donate Any Amount You Like 💸</i></b>
 
 <b>UPI 🆔
 
-Google Pay 📲</b> `joynathnet4@oksbi`
+Google Pay 📲</b> joynathnet4@oksbi
 """
 
 STATUS_TXT = """
