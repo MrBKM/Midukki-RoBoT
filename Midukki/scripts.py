@@ -6,11 +6,13 @@ START_TXT = """<i><b>Hello 👋 {mention},</i></b>
 
 <i><b>For More Information Click ℹ️ Help</i></b>"""
 
+ABOUT_TXT = """
+Hi My Creator Mr BKM
+"""
 
 HELP_TXT = """<i><b>Hello 👋 {mention},</i></b>
 
 <i><b>I can Guide You Through All Of {bot}'s Cool Features & How To Properly Use Them. Use The Buttons Below To Navigate Through All Of The Modules.</i></b>
-
 
 DONATE_TXT = """<i><b>Hello 👋 {mention},</i></b>
 
