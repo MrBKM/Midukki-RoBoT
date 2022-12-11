@@ -17,7 +17,8 @@ ABOUT_TXT = """
 ➾ Developers : Mr.BKM
 ➾ Language : Python3
 ➾ Framework : Pyrogram
-➾ Database : MongoDB"""
+➾ Database : MongoDB
+"""
 
 DONATE_TXT = """<i><b>Hello 👋 {mention}</i></b>
 
